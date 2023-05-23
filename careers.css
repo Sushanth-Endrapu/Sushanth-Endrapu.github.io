@@ -1,0 +1,135 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header ul {
+    list-style: none;
+  }
+  
+  header ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  header ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-color: #0070e0;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  .hero-content {
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  /* Job listings section styles */
+  /* Job listings section styles */
+.job-listings {
+  background-color: #fff;
+  padding: 50px;
+}
+
+.job-listings h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.job-listings ul {
+  list-style-type: none;
+}
+
+.job-listings li {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.job-listings li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-listings h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.job-listings p {
+  margin-bottom: 10px;
+}
+
+.job-listings a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #0070e0;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.job-listings a:hover {
+  background-color: #0050a0;
+}
+
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
