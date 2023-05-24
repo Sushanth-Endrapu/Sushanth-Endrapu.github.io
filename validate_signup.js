@@ -28,7 +28,7 @@ signUpButton.addEventListener("click", function (event) {
     }
     if(!alertMsg){
       alert(`${name}\nYou have successfully signed up!`);
-      nameInput,value=''
+      nameInput.value=''
       emailInput.value=''
       passwordInput.value=''
     }
