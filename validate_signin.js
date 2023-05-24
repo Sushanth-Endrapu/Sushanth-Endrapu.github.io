@@ -26,6 +26,8 @@ signInButton.addEventListener("click", function (event) {
     }
     if (!alertMsg) {
       alert(`${name}\nYou have successfully signed in!`);
+      emailInput.value=''
+      passwordInput.value=''
     } else {
       alert(alertMsg);
     }
